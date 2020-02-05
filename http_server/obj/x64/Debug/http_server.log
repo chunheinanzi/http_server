@@ -1,0 +1,15 @@
+﻿  Cleaning remote project directory
+  Validating sources
+  Copying sources remotely to '192.168.146.129'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+D:\project\http_server\http_server\main.cpp(120,26): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\project\http_server\http_server\main.cpp(120,26): warning :   if ((nFileLen = ftell(fp)) < 1)//�ļ�����
+D:\project\http_server\http_server\main.cpp(120,26): warning :                           ^
+D:\project\http_server\http_server\main.cpp(281,20): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\project\http_server\http_server\main.cpp(281,20): warning :   char *http_addr = "0.0.0.0";
+D:\project\http_server\http_server\main.cpp(281,20): warning :                     ^
+  Linking objects
+  http_server.vcxproj -> D:\project\http_server\http_server\bin\x64\Debug\http_server.out

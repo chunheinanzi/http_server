@@ -1,0 +1,1 @@
+g++ -o "/home/zyz/projects/http_server/bin/x64/Debug/http_server.out" -Wl,--no-undefined -Wl,-L/usr/local/lib/ -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/zyz/projects/http_server/obj/x64/Debug/main.o -levent
